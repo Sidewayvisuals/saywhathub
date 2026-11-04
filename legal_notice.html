@@ -2,203 +2,256 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Notice | SayWhatHub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Notice | SayWhatHub</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-        body {
-            margin: 0;
-            padding: 60px 20px;
-            background: #0b0b10;
-            color: #e8e8ed;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
-        }
+    body {
+      margin: 0;
+      padding: 60px 20px;
+      background: #0b0b10;
+      color: #e8e8ed;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
 
-        .legal-container {
-            max-width: 760px;
-            margin: 0 auto;
-            padding: 50px;
-            background: #14141c;
-            border: 1px solid #292936;
-            border-radius: 16px;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
-        }
+    .legal-container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 50px;
+      background: #14141c;
+      border: 1px solid #292936;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+    }
 
-        h1 {
-            margin: 0 0 35px;
-            font-size: 34px;
-            font-weight: 700;
-            letter-spacing: -1px;
-            background: linear-gradient(
-                90deg,
-                #00e5ff,
-                #9b5cff,
-                #ff36c5
-            );
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 35px;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1.2;
+      background: linear-gradient(
+        90deg,
+        #00e5ff,
+        #9b5cff,
+        #ff36c5
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
 
-        h2 {
-            margin: 38px 0 12px;
-            padding-left: 14px;
-            border-left: 3px solid #9b5cff;
-            color: #ffffff;
-            font-size: 18px;
-            font-weight: 600;
-        }
+    h2 {
+      margin-top: 35px;
+      margin-bottom: 14px;
+      padding-left: 14px;
+      border-left: 3px solid #9b5cff;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 600;
+    }
 
-        p {
-            margin: 0;
-            color: #b8b8c5;
-            font-size: 15px;
-        }
+    p {
+      margin: 10px 0;
+      color: #b8b8c5;
+    }
 
-        a {
-            color: #00d9ff;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
+    a {
+      color: #00d9ff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
 
-        a:hover {
-            color: #ff36c5;
-        }
+    a:hover {
+      color: #ff36c5;
+    }
 
-        .social-profiles {
-            margin-top: 12px;
-            padding-left: 20px;
-            color: #b8b8c5;
-            font-size: 15px;
-        }
+    .contact-details {
+      margin-top: 15px;
+      padding: 20px;
+      background: #1a1a24;
+      border: 1px solid #292936;
+      border-radius: 10px;
+    }
 
-        .social-profiles li {
-            margin-bottom: 8px;
-            padding-left: 4px;
-        }
+    .contact-details p {
+      margin: 5px 0;
+    }
 
-        .source {
-            margin-top: 45px;
-            padding-top: 20px;
-            border-top: 1px solid #292936;
-            color: #777783;
-            font-size: 12px;
-        }
+    .platform-list {
+      margin: 15px 0 0;
+      padding: 0;
+      list-style: none;
+    }
 
-        .source a {
-            color: #9292a5;
-        }
+    .platform-list li {
+      margin: 10px 0;
+      padding: 10px 14px;
+      background: #1a1a24;
+      border: 1px solid #292936;
+      border-radius: 8px;
+    }
 
-        .source a:hover {
-            color: #00d9ff;
-        }
+    .platform-name {
+      display: inline-block;
+      min-width: 125px;
+      color: #ffffff;
+      font-weight: 600;
+    }
 
-        @media (max-width: 600px) {
-            body {
-                padding: 25px 15px;
-            }
+    .placeholder {
+      color: #ffb454;
+      font-style: italic;
+    }
 
-            .legal-container {
-                padding: 30px 22px;
-            }
+    .legal-footer {
+      margin-top: 45px;
+      padding-top: 20px;
+      border-top: 1px solid #292936;
+      color: #777786;
+      font-size: 13px;
+    }
 
-            h1 {
-                font-size: 28px;
-            }
+    @media (max-width: 600px) {
+      body {
+        padding: 25px 12px;
+      }
 
-            h2 {
-                font-size: 17px;
-            }
-        }
-    </style>
+      .legal-container {
+        padding: 28px 22px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .platform-name {
+        display: block;
+        margin-bottom: 3px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-    <main class="legal-container">
+  <main class="legal-container">
 
-        <h1>Legal Notice</h1>
+    <h1>Legal Notice</h1>
 
-        <p>
-            Marcel Kr&ouml;ber<br>
-            Ossietzkystra&szlig;e, 21<br>
-            04347 Leipzig
-        </p>
+    <h2>Information pursuant to Section 5 DDG</h2>
 
-        <h2>Contact</h2>
+    <div class="contact-details">
+      <p><strong>Provider:</strong></p>
+      <p>Marcel Kröber</p>
+      <p>Ossietzkystraße 21</p>
+      <p>04347 Leipzig</p>
+      <p>Germany</p>
+    </div>
 
-        <p>
-            Phone: 015252393597<br>
-            Email:
-            <a href="mailto:saywhathub@sidewayvisuals.com">
-                saywhathub@sidewayvisuals.com
-            </a>
-        </p>
+    <h2>Contact</h2>
 
-        <h2>Consumer Dispute Resolution / Universal Arbitration Board</h2>
+    <div class="contact-details">
+      <p><strong>Phone:</strong>
+        <a href="tel:+4915252393597">+49 1525 2393597</a>
+      </p>
 
-        <p>
-            We are neither willing nor obliged to participate in
-            dispute resolution proceedings before a consumer
-            arbitration board.
-        </p>
+      <p><strong>Email:</strong>
+        <a href="mailto:saywhathub@sidewayvisuals.com">
+          saywhathub@sidewayvisuals.com
+        </a>
+      </p>
+    </div>
 
-        <h2>Social Media Profiles and Websites</h2>
+    <h2>Responsible for Content</h2>
 
-        <p>
-            This legal notice also applies to the following social
-            media profiles and websites:
-        </p>
+    <p>
+      Responsible for journalistic-editorial content pursuant to
+      Section 18(2) of the German State Media Treaty (MStV),
+      where applicable:
+    </p>
 
-        <ul class="social-profiles">
-            <li>
-                Account Saywhathub on Instagram (
-                <a href="https://www.instagram.com/saywhathub/"
-                   target="_blank" rel="noopener noreferrer">
-                    instagram.com/saywhathub
-                </a>)
-            </li>
+    <div class="contact-details">
+      <p>Marcel Kröber</p>
+      <p>Ossietzkystraße 21</p>
+      <p>04347 Leipzig</p>
+      <p>Germany</p>
+    </div>
 
-            <li>
-                Account Saywhathub on Facebook (
-                <a href="https://www.facebook.com/saywhathub/"
-                   target="_blank" rel="noopener noreferrer">
-                    facebook.com/saywhathub
-                </a>)
-            </li>
+    <h2>Scope of this Legal Notice</h2>
 
-            <li>
-                Account Saywhathub on TikTok (
-                <a href="https://www.tiktok.com/saywhathub/"
-                   target="_blank" rel="noopener noreferrer">
-                    tiktok.com/saywhathub
-                </a>)
-            </li>
+    <p>
+      This legal notice applies to the following social media
+      profiles, online platforms and digital presences operated
+      under the name <strong>SayWhatHub</strong>:
+    </p>
 
-            <li>
-                Saywhathub on GitHub (
-                <a href="https://sidewayvisuals.github.io/saywhathub/"
-                   target="_blank" rel="noopener noreferrer">
-                    sidewayvisuals.github.io/saywhathub
-                </a>)
-            </li>
-        </ul>
+    <ul class="platform-list">
 
-        <div class="source">
-            Source:
-            <a href="https://www.e-recht24.de" target="_blank"
-               rel="noopener noreferrer">
-                e-recht24.de
-            </a>
-        </div>
+      <li>
+        <span class="platform-name">TikTok</span>
+        <a href="https://www.tiktok.com/saywhathub/"
+           target="_blank" rel="noopener noreferrer">
+          www.tiktok.com/saywhathub
+        </a>
+      </li>
 
-    </main>
+      <li>
+        <span class="platform-name">Instagram</span>
+        <a href="https://www.instagram.com/saywhathub/"
+           target="_blank" rel="noopener noreferrer">
+          www.instagram.com/saywhathub
+        </a>
+      </li>
+
+      <li>
+        <span class="platform-name">YouTube</span>
+        <span class="placeholder">
+          [Insert your YouTube channel URL]
+        </span>
+      </li>
+
+      <li>
+        <span class="platform-name">GitHub Pages</span>
+        <a href="https://sidewayvisuals.github.io/saywhathub/"
+           target="_blank" rel="noopener noreferrer">
+          sidewayvisuals.github.io/saywhathub
+        </a>
+      </li>
+
+      <li>
+        <span class="platform-name">Linktree</span>
+        <a href="https://linktr.ee/saywhathub"
+           target="_blank" rel="noopener noreferrer">
+          linktr.ee/saywhathub
+        </a>
+      </li>
+
+    </ul>
+
+    <h2>Consumer Dispute Resolution</h2>
+
+    <p>
+      The European Commission's former Online Dispute Resolution
+      (ODR) platform has been discontinued.
+    </p>
+
+    <div class="legal-footer">
+      <p>
+        Legal basis: Section 5 of the German Digital Services Act
+        (Digitale-Dienste-Gesetz – DDG) and, where applicable,
+        Section 18 of the German State Media Treaty
+        (Medienstaatsvertrag – MStV).
+      </p>
+    </div>
+
+  </main>
 
 </body>
 </html>
