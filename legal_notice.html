@@ -1,15 +1,151 @@
+
 <!DOCTYPE html>
-<h1>Legal Notice</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Notice | SayWhatHub</title>
 
-<p>Marcel Kr&ouml;ber<br />
-Ossietzkystra&szlig;e, 21<br />
-04347 Leipzig</p>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-<h2>Contact</h2>
-<p>Phone: &#91;Phone Number&#93;<br />
-Email: saywhathub@sidewayvisuals.com</p>
+        body {
+            margin: 0;
+            padding: 60px 20px;
+            background: #0b0b10;
+            color: #e8e8ed;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+        }
 
-<h2>Consumer Dispute Resolution/Universal Arbitration Board</h2>
-<p>We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+        .legal-container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 50px;
+            background: #14141c;
+            border: 1px solid #292936;
+            border-radius: 16px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+        }
 
-<p>Source: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
+        h1 {
+            margin: 0 0 35px;
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            background: linear-gradient(
+                90deg,
+                #00e5ff,
+                #9b5cff,
+                #ff36c5
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        h2 {
+            margin: 38px 0 12px;
+            padding-left: 14px;
+            border-left: 3px solid #9b5cff;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 0;
+            color: #b8b8c5;
+            font-size: 15px;
+        }
+
+        a {
+            color: #00d9ff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #ff36c5;
+        }
+
+        .source {
+            margin-top: 45px;
+            padding-top: 20px;
+            border-top: 1px solid #292936;
+            color: #777783;
+            font-size: 12px;
+        }
+
+        .source a {
+            color: #9292a5;
+        }
+
+        .source a:hover {
+            color: #00d9ff;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 25px 15px;
+            }
+
+            .legal-container {
+                padding: 30px 22px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="legal-container">
+
+        <h1>Legal Notice</h1>
+
+        <p>
+            Marcel Kr&ouml;ber<br>
+            Ossietzkystra&szlig;e, 21<br>
+            04347 Leipzig
+        </p>
+
+        <h2>Contact</h2>
+
+        <p>
+            Phone: [Phone Number]<br>
+            Email:
+            <a href="mailto:saywhathub@sidewayvisuals.com">
+                saywhathub@sidewayvisuals.com
+            </a>
+        </p>
+
+        <h2>Consumer Dispute Resolution / Universal Arbitration Board</h2>
+
+        <p>
+            We are neither willing nor obliged to participate in
+            dispute resolution proceedings before a consumer
+            arbitration board.
+        </p>
+
+        <div class="source">
+            Source:
+            <a href="https://www.e-recht24.de" target="_blank"
+               rel="noopener noreferrer">
+                e-recht24.de
+            </a>
+        </div>
+
+    </main>
+
+</body>
+</html>
